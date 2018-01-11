@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="background.css">
+
+    <title>SyncCRM</title>
+</head>
+
+<body>
+   <!-- Responsive Inicio -->
+     <div class="grid-example col s12"><span class="flow-text"></span></div>
+      <div class="grid-example col s12 m6"><span class="flow-text"></span></div>
+       
+      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+        <!-- Grey navigation panel
+
+              This content will be:
+          3-columns-wide on large screens,
+          4-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+
+      </div>
+
+      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+        <!-- Teal page content
+
+              This content will be:
+          9-columns-wide on large screens,
+          8-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+
+      </div>      
+      <!-- Responsive Fin-->
+   
+    <!-------------------------------------NavBar Inicio----------------------------------------------------------------------->
+    <nav>
+       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper #d32f2f red darken-4 z-depth-5">
+            <a href="#!" class="brand-logo">SyncCRM ATI®</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">more_horiz</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Actividades">local_activity</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Maps">place</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Mailbox">mail_outline</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Empresas">location_city</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contactos">supervisor_account</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Base de Conocimientos">account_balance</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Recordatorios">alarm_on</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Calendario General">today</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Notificaciones">notifications</i></a></li>
+                <li><a href="#"><i class="material-icons left tooltipped" data-position="bottom" data-delay="50" data-tooltip="Perfil">face</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">Actividades <i class="material-icons left">local_activity</i> </a></li>
+                <li><a href="#"><i class="material-icons left">place</i>Maps</a></li>
+                <li><a href="#"><i class="material-icons left">mail_outline</i>Mailbox</a></li>
+                <li><a href="#"><i class="material-icons left">location_city</i>Empresas</a></li>
+                <li><a href="#"><i class="material-icons left">supervisor_account</i>Contactos</a></li>
+                <li><a href="#"><i class="material-icons left">account_balance</i>Base de Conocimientos</a></li>
+                <li><a href="#"><i class="material-icons left">alarm_on</i>Recordatorio</a></li>
+                <li><a href="#"><i class="material-icons left">today</i>Calendario General</a></li>
+                <li><a href="#"><i class="material-icons left">notifications</i>Notificaciones</a></li>
+                <li><a href="#"><i class="material-icons left">face</i>Perfil</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-------------------------------------NavBar FIN----------------------------------------------------------------------->
+    <!-------------------------------------LeftBar Inicio----------------------------------------------------------------------->
+    <ul id="slide-out" class="side-nav fixed leftside-navigation">
+        <!-- Encabezado Barra Inicio-->
+        <li>
+            <div class="userView center-align">
+                <div class="background">
+                    <img src="images/user-bg.jpg">
+                </div>
+                <a href="#!user"><img class="circle" src="https://toparkservers.com/img/team/team-1.png"></a>
+                <a href="#!name"><span class="white-text name">John Doe</span></a>
+                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <!-- Encabezado Barra Fin-->        
+        <!-- usuarios --> 
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">account_circle</i> Usuarios ATI® </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Listado de Usuarios</a>
+                                    </li>
+                                    <li><a href="#">Crear Usuario Nuevo</a>
+                                    </li>
+                                    <li><a href="#">Privelegios de Usuario</a>
+                                    </li>
+                                    <li><a href="#">Inicios de Sesion</a>
+                                    </li>                            
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Empresas -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">location_city</i> Empresas</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Listado Empresas</a>
+                                    </li>
+                                    <li><a href="#">Crear Empresa Nueva</a>
+                                    </li>
+                                    <li><a href="#">Empresas Ubicadas</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Contactos -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">group</i> Contactos</i> Empresas</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Listado de Contactos</a>
+                                    </li>
+                                    <li><a href="#">Crear Contacto</a>
+                                    </li>
+                                    <li><a href="#">Listado Tipo Clientes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Linea de Negocios -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">layers</i> Lineas de Negocio</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Lineas de Negocio</a>
+                                    </li>
+                                    <li><a href="#">Crear Linea de Negocio</a>
+                                    </li>
+                                    <li><a href="#">Listado de Productos</a>
+                                    </li>
+                                    <li><a href="#">Nuevo Producto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Servicios -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">touch_app</i> Servicios</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Catalogo Servicios</a>
+                                    </li>
+                                    <li><a href="#">Crear Categoria Servicio</a>
+                                    </li>
+                                    <li><a href="#">Servicios Asignados</a>
+                                    </li>
+                                    <li><a href="#">Tickets Dashboard</a>
+                                    </li>
+                                    <li><a href="#">Mis Tickets</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Correos Electronicos "Mailbox" -->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">local_post_office</i> MailBox </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Recibidos</a>
+                                    </li>
+                                    <li><a href="#">Enviados</a>
+                                    </li>
+                                    <li><a href="#">Eliminados</a>                                        
+                                    </li>
+                                    <li><a href="#">Plantillas</a>                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Bitacora -->                
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">assignment</i> Bitacoras</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Sucesos</a>
+                                    </li>
+                                    <li><a href="#">Polizas</a>
+                                    </li>
+                                    <li><a href="#">Actividades</a>
+                                    </li>
+                                    <li><a href="#">Ventas</a>
+                                    </li>
+                                    <li><a href="#">Tickets de Servicio</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Actividades -->                
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">stars</i> Actividades</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Pendientes ATI</a>
+                                    </li>
+                                    <li><a href="#">Pendientes Personales</a>
+                                    </li>
+                                    <li><a href="#">Nueva Actividad</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Extra Skills-->
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="material-icons hide-on-med-and-down">code</i> Extra Skills </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#">Google Maps</a>
+                                    </li>
+                                    <li><a href="#">Graficos Ventas</a>
+                                    </li>
+                                    <li><a href="#">Graficos Soporte</a>
+                                    </li>
+                                    <li><a href="#">Chat Interno</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!-- =============================================================== -->          
+    </ul>
+<!--    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
+    <!-------------------------------------LeftBar FIN----------------------------------------------------------------------->
+
+    <!-------------------------------------Floating Button ------------------------------------------------------------------>
+    <div class="fixed-action-btn ">
+        <a class="btn-floating btn-large #d32f2f red darken-3 z-depth-3">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <!-- Create usuario-->
+            <li><a class="btn-floating #f44336 red"><i class="material-icons">child_care</i></a></li>
+            <!-- Create Count or Empresa-->
+            <li><a class="btn-floating #ffc107 amber"><i class="material-icons">domain</i></a></li>
+            <!-- Create Contact-->
+            <li><a class="btn-floating #4caf50 green"><i class="material-icons">person_add</i></a></li>
+            <!-- Create Tiket-->
+            <li><a class="btn-floating #0288d1 light-blue darken-2"><i class="material-icons">whatshot</i></a></li>
+            <!-- Create Cotizacion-->
+            <li><a class="btn-floating #f44336 red"><i class="material-icons">attach_money</i></a></li>
+            <!-- Create Recordatorie-->
+            <li><a class="btn-floating #ffc107 amber"><i class="material-icons">alarm_add</i></a></li>
+            <!-- Create mail-->
+            <li><a class="btn-floating #4caf50 green"><i class="material-icons">email</i></a></li>
+            <!-- Create activity-->
+            <li><a class="btn-floating #0288d1 light-blue darken-2"><i class="material-icons">star</i></a></li>
+        </ul>
+    </div>
+    <!------------------------------------Fin de la LateralBar------------------------------------------------------------->
+    <!------------------------------------START FOOTER--------------------------------------------------------------------->
+
+    <footer class="page-footer #d32f2f red darken-3">
+        <div class="footer-copyright #d32f2f red darken-2">
+            <div class="container center">
+                Copyright © 2017 <a class="grey-text text-lighten-4" href="https://www.facebook.com/atichis/" target="_blank">Facebook ATI®</a> All rights reserved.
+                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="https://www.atichiapas.com.mx/">ATI®</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-----------------------------------END FOOTER----------------------------------------------------------------------->
+
+    <!-------------------------------------Script------------------------------------------------------------------------->
+    <script src="materialize/js/jquery-3.1.1.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <!--El siguiente script es para activar la barra de menu-->
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+    <!-------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>
